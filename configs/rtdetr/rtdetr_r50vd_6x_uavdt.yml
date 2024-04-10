@@ -1,0 +1,15 @@
+__include__: [
+  '../dataset/uavdt.yml',
+  '../runtime.yml',
+  './include/dataloader.yml',
+  './include/optimizer.yml',
+  './include/rtdetr_r50vd.yml',
+]
+
+
+checkpoint_step: 36
+output_dir: output/uavdt/rtdetr_r50vd_6x_uavdt
+epoches: 216
+
+train_dataloader: 
+  batch_size: 3

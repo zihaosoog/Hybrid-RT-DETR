@@ -1,0 +1,34 @@
+task: detection
+
+num_classes: 10
+remap_mscoco_category: True
+
+train_dataloader: 
+  type: DataLoader
+  dataset: 
+    type: CocoDetection
+    img_folder: /data6/zihaosong/datasets/VisDrone2019-DET/VisDrone2019-DET-train/images
+    ann_file: /data6/zihaosong/datasets/VisDrone2019-DET/annotations/train.json
+    transforms:
+      type: Compose
+      ops: ~
+  shuffle: True
+  batch_size: 8
+  num_workers: 4
+  drop_last: True 
+
+
+val_dataloader:
+  type: DataLoader
+  dataset: 
+    type: CocoDetection
+    img_folder: /data6/zihaosong/datasets/VisDrone2019-DET/VisDrone2019-DET-val/images
+    ann_file: /data6/zihaosong/datasets/VisDrone2019-DET/annotations/val.json
+    transforms:
+      type: Compose
+      ops: ~ 
+
+  shuffle: False
+  batch_size: 8
+  num_workers: 4
+  drop_last: False
