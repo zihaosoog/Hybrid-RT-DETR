@@ -1,6 +1,7 @@
 # Hybrid-RT-DETR
- 基于多尺度增强辅助编解码网络的无人机目标检测算法
+Hybrid encoder-decoder network for end-to-end object detection in UAV imagery
 
+基于多尺度增强辅助编解码网络的无人机目标检测算法 <br />
 Keywords：DETR；多尺度特征融合；辅助目标查询
 
 ## Results on VisDrone2019
