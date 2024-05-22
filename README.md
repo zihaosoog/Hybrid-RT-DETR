@@ -71,4 +71,12 @@ torchrun --nproc_per_node=4 tools/train.py -c configs/rtdetr/rtdetr_r50vd_6x_coc
 ```
 </details>
 
+<details>
+<summary>Test</summary>
+ 
+ ```shell
+ python tools/infer.py
+ ```
+</details>
+
 Tips: set `remap_mscoco_category: False`.
