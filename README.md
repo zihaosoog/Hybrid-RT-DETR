@@ -26,7 +26,7 @@ Keywords：DETR；多尺度特征融合；辅助目标查询
 | baseline_r18 | 0.027 |
 | ours_r18 | 0.048 |
 | baseline_r50 | 0.048 |
-| ours_r50 | 0.0554 |
+| ours_r50 | 0.055 |
 ***
 ## Quick start
 <details>
