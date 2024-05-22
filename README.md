@@ -23,10 +23,10 @@ Keywords：DETR；多尺度特征融合；辅助目标查询
 模型在TITAN RTX上的推理耗时
 | 模型 | 平均推理耗时（秒） |
 |---|---|
-| baseline_r18 | 0.187 |
-| ours_r18 | 0.215 |
-| baseline_r50 | 0.213 |
-| ours_r50 | 0.221 |
+| baseline_r18 | 0.027 |
+| ours_r18 | 0.048 |
+| baseline_r50 | 0.048 |
+| ours_r50 | 0.0554 |
 ***
 ## Quick start
 <details>
